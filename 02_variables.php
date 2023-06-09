@@ -22,3 +22,17 @@
 - Variables can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 - Variables are case-sensitive ($name and $NAME are two different variables)
 */
+
+$name="mike";
+$age=20;
+$favfood="rice";
+$gender='male';
+
+echo "My name is $name am $age year old my favourite food is $favfood and i am a $gender <br>";
+ 
+$cars=8;
+$momcars=2;
+$brocars=2;
+$dadcars=1;
+$remainingcars=$cars-($momcars+$brocars+$dadcars);
+echo"$remainingcars";
