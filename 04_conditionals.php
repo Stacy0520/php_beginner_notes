@@ -2,8 +2,14 @@
 
 /* ---- Conditionals & Operators ---- */
 
-/* ------------ Operators ----------- */
-
+/* ------------ Operators -----------  */
+//are special characters or symbols that are used to perform operation on statements or operands
+      //types
+//arithmetic opertaors-are used to carry arithmetic operation eg;+,-,*,/
+ $desks=20;
+ $chairs=25;
+ $furniture=$desks+$chairs;
+ echo $furniture;
 /*
   < Less than
   > Greater than

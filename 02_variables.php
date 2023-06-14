@@ -1,6 +1,6 @@
 <?php
 
-/* ----- Variables & Data Types ----- */
+/* ----- Variables(Is a named memory location) & Data Types(special characters and symbols)----- */
 
 /* --------- PHP Data Types --------- */
 /*
@@ -9,7 +9,8 @@
 - Float - Decimal numbers
 - Boolean - true or false
 - Array - An array is a special variable, which can hold more than one value
-- Object - A class
+- 
+
 - NULL - Empty variable
 - Resource - A special variable that holds a resource
 */
