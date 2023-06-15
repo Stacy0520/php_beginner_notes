@@ -1,6 +1,7 @@
 <?php
 
-/* -------- Loops & Iteration ------- */
+/* -------- Loops & Iteration ------- 
+loop is a conditonal statement that repeats ifself until a certai conditon is */
 
 /* ------------ For Loop ------------ */
 
@@ -43,3 +44,9 @@ do...while loop will always execute the block of code once, even if the conditio
   // code to be executed
   }
 */
+$value=1;
+while($value<=5){
+  echo "increment number :$value<br>" ;
+  $value ++;
+  
+}

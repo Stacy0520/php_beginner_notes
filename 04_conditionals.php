@@ -80,14 +80,14 @@ if ($team1<$team2){
  //write a simple php code to check whether a number is positive,negative or a zero
   */
 
-  /*
+ /* 
 $age=18;
  if ($age<20){
   echo "vote";
  }else{
   echo "no vote";
  }
-*/
+
 
  $number= 10;
  if($number>0){
@@ -97,3 +97,40 @@ $age=18;
  }else{
   echo "the number is zero";
  }
+ 
+
+ $a = readline('Enter a name: ');
+ $input='stacy';
+ echo $a;
+ */
+
+ $favfood="pilau";
+ switch($favfood){
+  case 'meat':
+    echo "my favfood is meat";
+    break;
+
+    case 'rice':
+      echo "my favfood is rice";
+      break;
+
+      case 'chapatti':
+        echo "my favfood is chapatti";
+        break;
+
+        case 'ugali':
+          echo "my favfood is ugali";
+          break;
+
+          case 'githeri':
+            echo "my favfood is githeri";
+            break;
+
+            case 'kales':
+              echo "my favfood is kales";
+              break;
+              default:
+              echo ("my favfood is pilau");
+ }
+
+
