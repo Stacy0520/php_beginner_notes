@@ -90,6 +90,12 @@ foreach($countcap as $country =>$capital){
 }
 
 
+$colors = array("red", "green", "blue", "yellow");
+foreach ($colors as $value) {
+  echo "$value <br>";
+}
+
+
 
 
 
