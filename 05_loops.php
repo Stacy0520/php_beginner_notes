@@ -11,7 +11,12 @@ loop is a conditonal statement that repeats ifself until a certai conditon is */
   // code to be executed
   }
 */
-
+$value=1;
+while($value<=5){
+  echo "increment number :$value<br>" ;
+  $value ++;
+  
+}
 
 /* ------------ While Loop ------------ */
 
@@ -33,10 +38,25 @@ loop is a conditonal statement that repeats ifself until a certai conditon is */
 
 do...while loop will always execute the block of code once, even if the condition is false.
 */
+$number=10;
+do{
+  echo "increment number :$number<br>" ;
+  $number ++;
+}while($number<=20);
+ 
 
 
+/*  for loop
+for loop - used when you know in advance how many times the script should run.
+-allows the user to put all the loops related statements that is (initialization;condition/test; ++/--)
+*/
 
-/* ---------- Foreach Loop ---------- */
+for($count=1; $count <=5; $count ++){
+  echo "number is: $count"; 
+
+}
+
+/*---------- Foreach Loop ---------- */
 
 /*
 ** Foreach Loop Syntax
@@ -44,9 +64,4 @@ do...while loop will always execute the block of code once, even if the conditio
   // code to be executed
   }
 */
-$value=1;
-while($value<=5){
-  echo "increment number :$value<br>" ;
-  $value ++;
-  
-}
+

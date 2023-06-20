@@ -30,3 +30,18 @@ function myName($fname,$lname){
   echo " print $myNames";
 }
 myName("stacy", "monica");
+
+
+function subtractfunction($num1, $num2){
+  $subtraction=$num1-$num2;
+  echo "print $subtraction";
+}
+subtractfunction(40,20);
+
+
+function multiplyfunction($num1, $num2){
+  $multiply=$num1*$num2;
+  echo "print $multiply";
+}
+multiplyfunction(34,2
+);

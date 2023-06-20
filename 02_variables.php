@@ -1,6 +1,7 @@
 <?php
 
 /* ----- Variables(Is a named memory location) & Data Types(special characters and symbols)----- */
+\
 
 /* --------- PHP Data Types --------- */
 /*
