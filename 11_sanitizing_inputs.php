@@ -5,15 +5,15 @@
   Data submitted through a form is not sanitized by default. We have methods to sanitize data manually.
 */
 if(isset($_POST['submit'])){
-//name = $_POST['email'];
-//email = $_POST['email'];
+//$name = $_POST['email'];
+//$email = $_POST['email'];
 
 
-//htmlspecilachars()- Convert special characters to HTML entities
+//htmlspecialchars()- Convert special characters to HTML entities
 //$name = htmlspecialchar($_POST['name']);
 //$email = htmlspecialchar($_POST['email']);
 
-//filter_var()-Sanitixe dat
+//filter_var()-Sanitize data
 //$name = filter_var($_POST['$name'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 //$email = filter_var($_POST['$email'], FILTER_SANITIZE_EMAIL);
 
@@ -31,7 +31,7 @@ $email = filter_input(INPUT_POST,'email',FILTER_SANITIZE_EMAIL);
 //FILTER_SANITIZE_FULL_SPECIAL_CHAR - HTML -encode special characters, keeps spaces and most other characters
 }?>
 
-<!--Pass data thorigh a form-->
+<!--Pass data through a form-->
 <!--php_self can be used for xss-->
 <form actionn="<?php echo htmlspecialchars(
   $_SERVER['PHP_SELF']
@@ -43,7 +43,7 @@ $email = filter_input(INPUT_POST,'email',FILTER_SANITIZE_EMAIL);
   <input type="text" name="name">
 </div>
 <br>
-<?php echo $email;?>
+<?php //echo $email;?>
 <div>
   <label>Email:</label>
   <input type="email" name="email">
